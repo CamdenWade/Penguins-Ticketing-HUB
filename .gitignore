@@ -6,3 +6,5 @@
 # NHL raw HTTP caches are reproducible and need not be stored in Git.
 data/raw/nhl_schedules/*.json
 data/raw/nhl_game_summaries/*.html
+/deployment/runtime/
+/rsconnect/
