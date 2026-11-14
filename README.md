@@ -8,9 +8,10 @@
 
 An interactive sports business analytics portfolio project built to demonstrate how a hockey organization's ticket sales, marketing, CRM, and business operations teams could analyze demand, inventory, customer retention, and potential revenue opportunities.
 
+**Business impact:** Built to demonstrate how professional sports organizations can use attendance analytics, ticketing KPIs, customer segmentation, and predictive modeling to support revenue strategy, marketing decisions, and fan engagement.
+
 > **Independent educational portfolio — not affiliated with, endorsed by, or operated by the Pittsburgh Penguins, PPG Paints Arena, or the NHL.** Game dates, opponents, results, venues and reported attendance are based on publicly available **real NHL game data**. **All ticket transactions, customers, memberships, seat allocations, financial metrics and revenue scenarios are synthetic**; they are not actual or estimated Penguins business results.
 
-**Status:** Local Shiny dashboards and data/model audits passed. Public Shiny deployment is planned for Stage 6B; a live app URL has **not** been published here yet.
 
 ## Inside the dashboard
 
@@ -88,7 +89,7 @@ Example local default: 15% conversion, $90 per additional ticket, $10 assumed ac
 - **Shiny, bslib, DT, CSS** for the responsive application
 - **httr2, rvest, jsonlite** for public NHL data acquisition
 - **Base R ridge regression helpers** for regularized modeling, with versioned scripts and independent validation checks
-- **Git and GitHub** for source control; **shinyapps.io** deployment planned for Stage 6B
+- **Git and GitHub** for version control; **shinyapps.io** for live cloud deployment
 
 ## Repository layout
 
