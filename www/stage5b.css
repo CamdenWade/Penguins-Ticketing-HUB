@@ -1,0 +1,45 @@
+/* STAGE 5B — additive styles only. Load after styles.css and stage4b.css. */
+.forecast-page .metric-card { min-width: 0; }
+.forecast-page .metric-value { overflow-wrap: anywhere; }
+.forecast-page .forecast-note { border-color: #76C6AC; background: #15252D; }
+.forecast-page .forecast-note strong { color: #BDEDDC; }
+.forecast-page .scenario-controls {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 17px; margin: 10px 0 23px;
+}
+.forecast-page .scenario-control {
+  border: 1px solid #344352; border-radius: 12px;
+  padding: 17px 19px 5px; background: #14212D; min-width: 0;
+}
+.forecast-page .scenario-control label {
+  font-size: 12px; font-weight: 760; color: #DCE6ED; margin-bottom: 9px;
+}
+.forecast-page .scenario-control .shiny-input-container { width: 100%; }
+.forecast-page .irs-bar, .forecast-page .irs-single,
+.forecast-page .irs-from, .forecast-page .irs-to { background: #FFB81C !important; }
+.forecast-page .irs-handle { border-color: #F7B31D !important; }
+.forecast-page .irs-line { background: #344757; }
+.forecast-page .irs-min, .forecast-page .irs-max { color: #9EB0BD; }
+.forecast-page .forecast-filter-note {
+  color: #AFC5D4; font-size: 11px; font-weight: 650;
+  padding: 9px 0 0; letter-spacing: .015em;
+}
+.forecast-page .forecast-story { display: grid; gap: 12px; margin: 25px 1px 14px; }
+.forecast-page .forecast-story p { color: #C5D4DF; line-height: 1.7; font-size: 12px; margin: 0; }
+.forecast-page .forecast-story strong { color: #FFD17C; }
+.forecast-page .forecast-evaluation-caveat {
+  border-left: 3px solid #81C3AD; padding: 12px;
+  border-radius: 6px; background: #1C3038; color: #B8D1D3;
+  font-size: 11px; line-height: 1.65; margin-top: 25px;
+}
+.forecast-page .chart-panel { min-width: 0; }
+.forecast-page .chart-panel .shiny-plot-output { width: 100% !important; }
+.forecast-page .dataTables_wrapper { overflow-x: auto; }
+@media(max-width: 1130px) {
+  .forecast-page .scenario-controls { grid-template-columns: 1fr; gap: 10px; }
+  .forecast-page .scenario-control { padding: 15px 17px 4px; }
+}
+@media(max-width: 650px) {
+  .forecast-page .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .forecast-page .metric-value { font-size: 22px; }
+}

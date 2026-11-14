@@ -1,0 +1,36 @@
+"check","expected","actual","passed"
+"122 real PPG home games","122","122",TRUE
+"inventory rows","488","488",TRUE
+"unique customer IDs","35000","35000",TRUE
+"unique membership IDs","7458","7458",TRUE
+"unique order IDs","432205","432205",TRUE
+"unique line IDs","727847","727847",TRUE
+"unique inventory game-category keys","488","488",TRUE
+"all Stage 3 records labeled SYNTHETIC","TRUE","TRUE",TRUE
+"order customers exist","0","0",TRUE
+"member customers exist","0","0",TRUE
+"line orders exist","0","0",TRUE
+"line games exist at PPG","0","0",TRUE
+"inventory games exist at PPG","0","0",TRUE
+"valid seating categories","0","0",TRUE
+"line and order header fields agree","TRUE","TRUE",TRUE
+"all purchases on or before games","TRUE","TRUE",TRUE
+"no order before customer CRM entry","TRUE","TRUE",TRUE
+"season matches game","TRUE","TRUE",TRUE
+"membership line references valid","TRUE","TRUE",TRUE
+"nonmember lines have no membership ID","TRUE","TRUE",TRUE
+"one membership per customer-season","TRUE","TRUE",TRUE
+"membership entitlements match contracts","TRUE","TRUE",TRUE
+"unique membership-game rights","TRUE","TRUE",TRUE
+"every membership covers every PPG game","TRUE","TRUE",TRUE
+"renewal flags match prior-season membership","TRUE","TRUE",TRUE
+"prices and discounts reconcile in cents","TRUE","TRUE",TRUE
+"all order totals positive","TRUE","TRUE",TRUE
+"one upfront membership payment equals all game rights","TRUE","TRUE",TRUE
+"single-game and group order totals reconcile","TRUE","TRUE",TRUE
+"no duplicate nonmember order lines","TRUE","TRUE",TRUE
+"all-orders cash equals allocated game revenue","TRUE","TRUE",TRUE
+"synthetic arena capacity equals reference per game","TRUE","TRUE",TRUE
+"inventory holds and targets valid","TRUE","TRUE",TRUE
+"ticket sales exactly match targets without overselling","TRUE","TRUE",TRUE
+"membership seats match reserved inventory","TRUE","TRUE",TRUE

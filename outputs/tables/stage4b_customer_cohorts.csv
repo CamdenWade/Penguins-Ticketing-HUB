@@ -1,0 +1,4 @@
+"season","active_accounts","first_observed","retained_from_prior","reactivated","retention_eligible","retained_accounts","membership_eligible","renewed_members","current_members","data_origin","purchaser_retention","member_renewal"
+"2023-24",14383,14383,0,0,NA,NA,NA,NA,2300,"SYNTHETIC",NA,NA
+"2024-25",22596,9348,13248,0,14383,13248,2300,1980,2480,"SYNTHETIC",0.921087394841132,0.860869565217391
+"2025-26",29664,9032,19979,653,22596,19979,2480,2128,2678,"SYNTHETIC",0.884183041246238,0.858064516129032

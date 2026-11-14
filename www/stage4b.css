@@ -1,0 +1,24 @@
+/* STAGE 4B ADDITIONS — load AFTER www/styles.css.
+   Preserves the existing black-and-gold Stage 4A design. */
+.subsection-heading { margin: 8px 1px 21px; }
+.subsection-heading h2 { color:#F2F6F9; font-weight:800; font-size:clamp(19px,2vw,25px);
+  letter-spacing:-.025em; margin:6px 0 7px; }
+.subsection-heading p { color:#A9B9C8; font-size:12px; max-width:940px;
+  line-height:1.65; margin:0; }
+.subsection-spaced { margin-top:36px; padding-top:24px; border-top:1px solid #324354; }
+.customer-page .chart-panel { min-width:0; }
+.customer-page .dataTables_wrapper { overflow-x:auto; }
+.customer-page .metric-description { line-height:1.5; }
+.customer-page .metric-value { overflow-wrap:anywhere; }
+.customer-page .chart-panel .shiny-plot-output { width:100% !important; }
+/* Four full-width cards comfortably fit medium laptop / demo screens. */
+@media (max-width:1050px) {
+  .customer-page .metric-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media (max-width:650px) {
+  .subsection-heading { margin-bottom:15px; }
+  .subsection-spaced { margin-top:23px; padding-top:20px; }
+  .customer-page .metric-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .customer-page .metric-card { min-height:143px; }
+  .customer-page .metric-value { font-size:22px; }
+}

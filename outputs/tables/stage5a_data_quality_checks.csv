@@ -1,0 +1,38 @@
+"check","expected","actual","passed"
+"Only real NHL source rows","REAL_NHL","REAL_NHL",TRUE
+"Original source count","123","123",TRUE
+"Model source count","122","122",TRUE
+"Season counts","41,41,40","41,41,40",TRUE
+"Feature game IDs unique","122","122",TRUE
+"No non-PPG game used","all TRUE","122",TRUE
+"Attendance source values preserved","all equal","compared by game_id",TRUE
+"Pregame feature set exact","8 approved","8",TRUE
+"No post-game or synthetic predictors","no leakage columns","feature list checked",TRUE
+"Pregame features reproducible","exactly matches","recomputed from Stage 2",TRUE
+"Source RDS unchanged","matching MD5","312fe58a514005f6374c757cb401ec2a",TRUE
+"Split boundaries fixed","2023-24/2024-25/2025-26","2023-24/2024-25/2025-26",TRUE
+"Final training only development seasons","2023-24,2024-25","2023-24,2024-25",TRUE
+"No test IDs in final training","0","0",TRUE
+"Final training count","82","82",TRUE
+"Test count","40","40",TRUE
+"Test season only","2025-26","2025-26",TRUE
+"Test IDs match split","40 matching","40",TRUE
+"Actual test attendance unchanged","exact match","compared by game_id",TRUE
+"Holdout predictions finite","all 40 x 3","checked",TRUE
+"Selected model predeclared","historical_mean or ridge","historical_mean",TRUE
+"Selected model RDS matches bundle","same saved fit","compared",TRUE
+"Ridge lambda from prespecified grid","one grid value","0.5",TRUE
+"Validation has 1 mean + 6 ridge rows","7","7",TRUE
+"Model selection independent of test","historical_mean","historical_mean",TRUE
+"Lambda selected by validation","0.5","0.5",TRUE
+"Saved baseline predictions reproduce","max difference < 1e-6","0",TRUE
+"Saved ridge predictions reproduce","max difference < 1e-6","0",TRUE
+"Selected predictions reproduce","max difference < 1e-6","0",TRUE
+"Residual signs correct","actual minus predicted","recomputed",TRUE
+"CSV prediction row count","40","40",TRUE
+"Holdout metrics contain 2 models","baseline and ridge","historical_mean,ridge",TRUE
+"Baseline test MAE matches","difference < 1e-6","checked",TRUE
+"Ridge test MAE matches","difference < 1e-6","checked",TRUE
+"Baseline test RMSE matches","difference < 1e-6","checked",TRUE
+"Ridge test RMSE matches","difference < 1e-6","checked",TRUE
+"Only selected model flagged","1","1",TRUE

@@ -1,0 +1,45 @@
+"check","expected","actual","passed"
+"Real PPG games","122","122",TRUE
+"Synthetic game summaries","122","122",TRUE
+"Four seating categories per game","488","488",TRUE
+"Three channels per game","366","366",TRUE
+"Holdout rows","40","40",TRUE
+"Holdout games unique","40","40",TRUE
+"Holdout season","2025-26","2025-26",TRUE
+"Model outcome origin","REAL_NHL","REAL_NHL",TRUE
+"Precommitted selection preserved","historical_mean","historical_mean",TRUE
+"Training game IDs count","82","82",TRUE
+"Holdout metrics cover two models","2","2",TRUE
+"Selected model flagged once","1","1",TRUE
+"Original NHL game IDs agree","40 matched","40",TRUE
+"Real NHL attendance is unchanged","40 equal","joined by game_id",TRUE
+"Selected prediction equals baseline","max diff <1e-6","0",TRUE
+"Row-level absolute errors reconcile","max diff <1e-6","0",TRUE
+"historical_mean MAE matches","within 1e-6","1172.616463",TRUE
+"historical_mean RMSE matches","within 1e-6","1445.668306",TRUE
+"ridge MAE matches","within 1e-6","1128.596883",TRUE
+"ridge RMSE matches","within 1e-6","1385.52407",TRUE
+"All scenario game IDs unique","122","122",TRUE
+"Scenario IDs match existing games","exact","set equal",TRUE
+"Scenario data marked synthetic","SYNTHETIC","SYNTHETIC",TRUE
+"Scenario labeled as assumptions","USER_ASSUMPTIONS_NOT_A_FORECAST","USER_ASSUMPTIONS_NOT_A_FORECAST",TRUE
+"Zero capture adds zero tickets","0","0",TRUE
+"Zero capture adds zero revenue","0","0",TRUE
+"Full capture fills all unsold seats","exact equality","compared by game",TRUE
+"Full capture never exceeds capacity","all exact capacity","compared by game",TRUE
+"Default per-game conversion rounds down","floor(unsold*0.15)","compared by game",TRUE
+"No scenario overfills inventory","all <= sellable","compared by game",TRUE
+"No negative unsold tickets","all >= 0","compared by game",TRUE
+"Gross revenue exact to cents","extra*9000 cents","compared by game",TRUE
+"Campaign spend exact to cents","extra*1000 cents","compared by game",TRUE
+"Contribution arithmetic exact","gross less spend","compared by game",TRUE
+"Current revenue is unchanged","matches base cents","joined by game_id",TRUE
+"Weighted scenario sellthrough correct","from totals","0.914381",TRUE
+"Scenario sellthrough never exceeds 100%","all <=1","compared by game",TRUE
+"Revenue bridge reconciles","existing + added","compared in cents",TRUE
+"Season filter has 40 scenario games","40","40",TRUE
+"Season filter preserves game IDs","all 2025-26","verified",TRUE
+"Past seasons have no held-out rows","0","0",TRUE
+"All 2025-26 PPG games match holdout","40","40",TRUE
+"Empty filter handled safely","0","0",TRUE
+"Protected RDS inputs unchanged","identical MD5","compared before/after",TRUE

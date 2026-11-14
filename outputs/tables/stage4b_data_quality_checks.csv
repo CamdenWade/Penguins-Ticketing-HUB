@@ -1,0 +1,21 @@
+"check","expected","actual","passed"
+"Real PPG games","122","122",TRUE
+"Synthetic game summaries","122","122",TRUE
+"Synthetic customers","35000","35000",TRUE
+"Membership contracts","7458","7458",TRUE
+"Order headers","432205","432205",TRUE
+"Order lines","727847","727847",TRUE
+"Three full-season cohorts","3","3",TRUE
+"First season retention unavailable","NA",NA,TRUE
+"First season renewal unavailable","NA",NA,TRUE
+"Later cohort renewal rates valid","[0,1]","0.861,0.858",TRUE
+"Later purchaser retention rates valid","[0,1]","0.921,0.884",TRUE
+"Customer cohort counts reconcile","TRUE","TRUE",TRUE
+"No duplicate customer-game keys","0","0",TRUE
+"No duplicate customer-season keys","0","0",TRUE
+"All customer-game records at PPG","TRUE","TRUE",TRUE
+"Customer paid tickets equal sales total","1970653","1970653",TRUE
+"Customer revenue cents equals sales total","26595787708","26595787708",TRUE
+"Customer data provenance","SYNTHETIC","SYNTHETIC",TRUE
+"Each annual cohort has active customers","TRUE","TRUE",TRUE
+"Segment revenue reconciles","TRUE","TRUE",TRUE

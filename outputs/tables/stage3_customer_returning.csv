@@ -1,0 +1,4 @@
+"season","active_customers","returning_customers","first_observed_customers","sim_returning_rate","data_origin"
+"2023-24",14383,0,14383,0,"SYNTHETIC"
+"2024-25",22596,13248,9348,0.586298459904408,"SYNTHETIC"
+"2025-26",29664,20632,9032,0.695523193096009,"SYNTHETIC"

@@ -1,0 +1,3 @@
+"model","n_games","mae","rmse","bias_pred_minus_actual","median_abs_error","selected_on_validation"
+"historical_mean",40,1172.61646341463,1445.66830576638,190.967682926829,1067.20731707317,TRUE
+"ridge",40,1128.5968830387,1385.52407041672,241.644370506111,905.521757596878,FALSE
