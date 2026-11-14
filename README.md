@@ -1,5 +1,9 @@
 # Pittsburgh Penguins Ticketing & Fan Revenue Analytics HUB
 
+**[Launch Live Dashboard](https://camden-wade.shinyapps.io/penguins-ticketing-hub/)**
+
+**Status:** Deployed on shinyapps.io. Explore interactive NHL attendance analysis, synthetic ticket revenue and CRM dashboards, historical attendance modeling, and hypothetical revenue scenarios.
+
 **R Shiny | Sports business intelligence | Attendance modeling | Synthetic ticketing & CRM analytics**
 
 An interactive sports business analytics portfolio project built to demonstrate how a hockey organization's ticket sales, marketing, CRM, and business operations teams could analyze demand, inventory, customer retention, and potential revenue opportunities.
@@ -173,6 +177,6 @@ The NHL endpoints require internet access. Audit scripts intentionally stop rath
 
 ## Project status and contact
 
-The analytics application is **working locally**. A public shinyapps.io link will be added after deployment and verification in Stage 6B. Portfolio website integration is handled separately.
+The interactive Shiny dashboard is deployed on shinyapps.io. The GitHub repository contains the source code, reproducibility instructions, methodology, and project documentation.
 
 Author: [CamdenWade](https://github.com/CamdenWade). This repository is an independent educational portfolio and is not affiliated with the Pittsburgh Penguins or NHL. No reuse license has been selected yet; public viewing does not by itself grant permission to reuse the code.
