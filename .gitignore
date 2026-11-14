@@ -3,8 +3,25 @@
 .RData
 .Ruserdata
 .DS_Store
+
 # NHL raw HTTP caches are reproducible and need not be stored in Git.
 data/raw/nhl_schedules/*.json
 data/raw/nhl_game_summaries/*.html
 /deployment/runtime/
 /rsconnect/
+
+# Generated datasets and saved model artifacts
+/data/processed/
+/data/synthetic/
+/data/modeling/
+/models/
+/outputs/
+
+# Deployment runtime and metadata
+/deployment/runtime/
+/rsconnect/
+
+# Local secrets
+.Renviron
+.env
+.env.*
